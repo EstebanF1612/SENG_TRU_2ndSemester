@@ -25,10 +25,6 @@ class Book{
             NumCopiesHeld = NewCopies;
         }
 
-        Publisher GetPublisher(){
-            return Publisher; //?????
-        }
-
         string GetTitle(){
             return Title;   
         }
@@ -47,10 +43,6 @@ class Book{
 
         int GetNumCopiesHeld(){
             return NumCopiesHeld;
-        }
-
-        void SetPublisher(Publisher NewPublisher){
-            Publisher = NewPublisher; //???????
         }
 
         void SetTitle(string newTitle){
