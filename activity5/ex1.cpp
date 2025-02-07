@@ -72,6 +72,7 @@ int main(){
         }
     } while (menuChoice != 0);
 
+    Stack1.~StackOfIntegers();
 
     return 0;
 }

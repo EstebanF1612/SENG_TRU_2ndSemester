@@ -53,7 +53,7 @@ public:
             // I tried using delete command for the last element but it gave me an error
             
             int temp = elements[size - 1];
-            elements[size - 1] = 0;
+            elements[size-1] = 0;
             size--;
             return temp;
         }
@@ -67,7 +67,7 @@ public:
 
     ~StackOfIntegers()
     {
-        delete[] elements;
+        std::cout<<"Deleted stack of integers";
     }
 };
 #endif
